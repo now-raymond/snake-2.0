@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Sabo-Regular';
+    src: url('fonts/Sabo-Regular.otf');
+}
+
+html, body {
+    background: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    cursor: none;
+}
+
+div {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+#scoreboard {
+    opacity: 0.8;
+    display: none;
+}
+
+#message {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.2s;
+
+    cursor: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1, p, a {
+    position: relative;
+    font-family: 'Sabo-Regular', serif;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+a#startGame, p#loading {
+    font-size: 30px;
+    display: block;
+    width: 120px;
+    top: 20%;
+    left: 0;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+a#restartGame {
+    font-size: 40px;
+}
+
+p#loading {
+    visibility: hidden;
+    border: none;
+    font-size: 24px;
+    top: 20%;
+    width: 200px;
+}
