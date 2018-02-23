@@ -5,4 +5,5 @@ Built with pure HTML5 JS Canvas, no frameworks and no dependencies.
 
 Full support for touchscreen devices, with responsive scaling.
 
-Play now: https://nowraymond.com/snake/
+Play now: https://nowraymond.com/snake/  
+Also available at: https://now-raymond.github.io/snake-2.0/
